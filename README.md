@@ -2,6 +2,10 @@
 
 ## Usage
 ```
+<?php
+
+use Mzavatsky\Complex\ComplexNumber;
+
 $a = ComplexNumber::zero();         // 0
 $b = ComplexNumber::re(15);         // 15
 $c = ComplexNumber::im(-5);         // -5*i

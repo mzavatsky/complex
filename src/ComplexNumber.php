@@ -27,7 +27,7 @@ class ComplexNumber
 
     public static function zero(): self
     {
-        return new self(re: 0, im: 0);
+        return new self(0, 0);
     }
 
     public function getRe(): float
@@ -42,7 +42,7 @@ class ComplexNumber
 
     public function eq(self $op): bool
     {
-        return $this->getRe() == $op->getRe() && $this->getIm() == $op->getIm();
+        return $this->getRe() === $op->getRe() && $this->getIm() === $op->getIm();
     }
 
     public function add(self $op): self
