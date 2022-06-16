@@ -1,0 +1,21 @@
+{
+    "name": "mzavatsky/complex",
+    "description": "Complex number operations",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mzavatsky\\Complex\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxim Zavatsky"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
