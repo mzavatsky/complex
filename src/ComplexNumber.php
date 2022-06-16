@@ -78,7 +78,7 @@ class ComplexNumber
         $denom = $op->getRe() * $op->getRe() + $op->getIm() * $op->getIm();
         $opInverse = new self(
             re: $op->getRe() / $denom,
-            im: - $op->getIm() / $denom
+            im: -$op->getIm() / $denom
         );
 
         return $this->mul($opInverse);
